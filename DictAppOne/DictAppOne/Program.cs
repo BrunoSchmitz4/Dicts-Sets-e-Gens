@@ -20,7 +20,7 @@ namespace DictAppOne
             list.Add(new Product("Tablet", 450.00));
 
             // Ordena lista (tipo as coleções Sorted :))
-            list.Sort((p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper()););
+            list.Sort((p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper()));
 
             foreach (Product p in list)
             {
