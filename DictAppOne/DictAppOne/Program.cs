@@ -12,7 +12,6 @@ namespace DictAppOne
             cookies["User"] = "Maria";
             cookies["Email"] = "maria@gmail.com";
             cookies["Phone"] = "995623482";
-            cookies["Phone"] = "580217552";
 
             cookies.Remove("Email");
 
