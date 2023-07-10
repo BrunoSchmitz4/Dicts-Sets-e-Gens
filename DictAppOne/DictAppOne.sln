@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictAppOne", "DictAppOne\DictAppOne.csproj", "{0CFCDE5E-541A-488A-BB9B-31711EE55C96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CFCDE5E-541A-488A-BB9B-31711EE55C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFCDE5E-541A-488A-BB9B-31711EE55C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFCDE5E-541A-488A-BB9B-31711EE55C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFCDE5E-541A-488A-BB9B-31711EE55C96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFFC2BD3-57FF-4C17-A353-48201B2A3011}
+	EndGlobalSection
+EndGlobal
