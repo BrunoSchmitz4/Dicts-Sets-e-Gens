@@ -13,3 +13,18 @@ C:\Estágio 2 - CSharp\DictAppOne\DictAppOne\obj\Debug\net6.0\refint\DictAppOne.
 C:\Estágio 2 - CSharp\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.pdb
 C:\Estágio 2 - CSharp\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.genruntimeconfig.cache
 C:\Estágio 2 - CSharp\DictAppOne\DictAppOne\obj\Debug\net6.0\ref\DictAppOne.dll
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\bin\Debug\net6.0\DictAppOne.exe
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\bin\Debug\net6.0\DictAppOne.deps.json
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\bin\Debug\net6.0\DictAppOne.runtimeconfig.json
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\bin\Debug\net6.0\DictAppOne.dll
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\bin\Debug\net6.0\DictAppOne.pdb
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.csproj.AssemblyReference.cache
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.AssemblyInfoInputs.cache
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.AssemblyInfo.cs
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.csproj.CoreCompileInputs.cache
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.dll
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\refint\DictAppOne.dll
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.pdb
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\DictAppOne.genruntimeconfig.cache
+C:\Estágio 2 - CSharp\Dicts, Sets e Gens\DictAppOne\DictAppOne\obj\Debug\net6.0\ref\DictAppOne.dll

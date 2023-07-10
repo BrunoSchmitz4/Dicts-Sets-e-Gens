@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Estágio 2 - CSharp\\DictAppOne\\DictAppOne\\DictAppOne.csproj",
+      "projectUniqueName": "C:\\Estágio 2 - CSharp\\Dicts, Sets e Gens\\DictAppOne\\DictAppOne\\DictAppOne.csproj",
       "projectName": "DictAppOne",
-      "projectPath": "C:\\Estágio 2 - CSharp\\DictAppOne\\DictAppOne\\DictAppOne.csproj",
+      "projectPath": "C:\\Estágio 2 - CSharp\\Dicts, Sets e Gens\\DictAppOne\\DictAppOne\\DictAppOne.csproj",
       "packagesPath": "C:\\Users\\OS0050\\.nuget\\packages\\",
-      "outputPath": "C:\\Estágio 2 - CSharp\\DictAppOne\\DictAppOne\\obj\\",
+      "outputPath": "C:\\Estágio 2 - CSharp\\Dicts, Sets e Gens\\DictAppOne\\DictAppOne\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
