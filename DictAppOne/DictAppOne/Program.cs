@@ -11,20 +11,44 @@ namespace DictAppOne
         // Owns to ChangeOddValues function
         public static int globalValue = 3;
 
+        // Owns to LearningDelegate function
         delegate double BinaryNumericOperation(double n1, double n2);
         delegate void BNO(double n1, double n2);
+        public delegate bool Predicate<in t>(t obj);
         static void Main(string[] args)
         {
+            LearningPredicateDelegate();
+        }
 
+        static void LearningPredicateDelegate()
+        {
+            List<Product> list = new List<Product>
+            {
+                new Product("TV", 900.00, 1),
+                new Product("Mouse", 50.00, 1),
+                new Product("Tablet", 350.50, 1),
+                new Product("HD Case", 80.90, 1)
+            };
+            list.RemoveAll(ProductTest);
+            foreach (Product p in list)
+            {
+                Console.WriteLine(p);
+            }
+        }
+        public static bool ProductTest(Product p)
+        {
+            return p.Price >= 100.00;
+        }
+
+        static void LearningDelegate()
+        {
             double a = 10;
             double b = 12;
 
             BNO op = CalculationService.ExplosionMethods;
             //op += CalculationService.ShowMax;
             op.Invoke(a, b);
-            
         }
-
         static void FunctionalProgramming()
         {
             // That's a function example that is not referentially transparent 

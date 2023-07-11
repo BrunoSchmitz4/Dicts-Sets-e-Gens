@@ -20,7 +20,7 @@ namespace DictAppOne.Entities
 
         public override string ToString()
         {
-            return $"Nome: {Name}, Preço: R${Price.ToString("F2", CultureInfo.InvariantCulture)}, Quantidade em Estoque: {Quantity}";
+            return $"{Name}, R${Price.ToString("F2", CultureInfo.InvariantCulture)}, {Quantity} unidade(s)";
         }
 
         public void ShowValorEstoque()
