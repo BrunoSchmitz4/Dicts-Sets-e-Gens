@@ -1,4 +1,5 @@
 ﻿using DictAppOne.Entities;
+using DictAppOne.Services;
 using System;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
@@ -7,10 +8,22 @@ namespace DictAppOne
 {
     class Program
     {
+        // Owns to ChangeOddValues function
         public static int globalValue = 3;
+
+        delegate double BinaryNumericOperation(double n1, double n2);
         static void Main(string[] args)
         {
-            FunctionalProgramming();
+
+            double a = 10;
+            double b = 12;
+
+            BinaryNumericOperation op1 = CalculationService.Sum;
+            BinaryNumericOperation op2 = CalculationService.Max;
+            double result = op1(a, b);
+
+            Console.WriteLine($"Resultado da soma: {op1(a, b)}");
+            Console.WriteLine($"Maior valor: {op2(a, b)}");
         }
 
         static void FunctionalProgramming()
