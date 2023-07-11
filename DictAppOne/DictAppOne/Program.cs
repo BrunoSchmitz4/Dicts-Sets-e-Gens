@@ -17,9 +17,27 @@ namespace DictAppOne
         public delegate bool Predicate<in t>(t obj);
         static void Main(string[] args)
         {
-            LearningPredicateDelegate();
+            LearningActionDelegate();
         }
 
+        static void LearningActionDelegate()
+        {
+            List<Product> list = new List<Product>
+            {
+                new Product("TV", 900.00, 1),
+                new Product("Mouse", 50.00, 1),
+                new Product("Tablet", 350.50, 1),
+                new Product("HD Case", 80.90, 1)
+            };
+
+            Action<Product> act = p => { p.Price += p.Price * 0.10; };
+            list.ForEach(act);
+            foreach (Product p in list)
+            {
+                Console.WriteLine($"{p}(aumento de 10% no preço)");
+            }
+
+        }
         static void LearningPredicateDelegate()
         {
             List<Product> list = new List<Product>
