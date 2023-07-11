@@ -2,7 +2,11 @@
 using DictAppOne.Services;
 using System;
 using System.Globalization;
-using System.Security.Cryptography.X509Certificates;
+using System.Collections.Generic;
+
+
+using System.Linq;
+using System.Reflection.Metadata;
 
 namespace DictAppOne
 {
@@ -17,9 +21,39 @@ namespace DictAppOne
         public delegate bool Predicate<in t>(t obj);
         static void Main(string[] args)
         {
-            LearningActionDelegate();
+            LearningFuncDelegate();
         }
 
+        static void LearningFuncDelegate()
+        {
+            List<Product> list = new List<Product>
+            {
+                new Product("TV", 900.00, 1),
+                new Product("Mouse", 50.00, 1),
+                new Product("Tablet", 350.50, 1),
+                new Product("HD Case", 80.90, 1)
+            };
+
+            Func<Product, string> func = NameUpper;
+
+            List<string> result = list.Select(func).ToList();
+
+            // ou
+            
+            Func<Product, string > func2 = p => p.Name.ToUpper();
+            List<string> result2 = list.Select(func2).ToList();
+
+
+            foreach (string p in result)
+            {
+                Console.WriteLine(p);
+            }
+        }
+
+        static string NameUpper(Product p)
+        {
+            return p.Name.ToUpper();
+        }
         static void LearningActionDelegate()
         {
             List<Product> list = new List<Product>
